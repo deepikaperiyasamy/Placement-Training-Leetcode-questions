@@ -4,9 +4,7 @@ class Solution {
         int c = 0;
         for(int num : nums){
             if(num%3!=0){
-                if((num+1)%3==0 || (num-1)%3==0){ c++;
-                System.out.println(num);
-                }
+                if((num+1)%3==0 || (num-1)%3==0) c++;
             }
         }
         return c;
