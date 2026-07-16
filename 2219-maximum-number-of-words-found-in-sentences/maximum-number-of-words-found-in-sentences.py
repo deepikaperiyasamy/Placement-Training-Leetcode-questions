@@ -3,6 +3,5 @@ class Solution:
         
         ans = 0
         for string in sentences :
-            words = string.split()
-            ans = max(ans,len(words))
+            ans = max(ans,len(string.split()))
         return ans
