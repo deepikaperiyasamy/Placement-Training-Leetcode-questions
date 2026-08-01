@@ -14,7 +14,7 @@ class Solution {
 
         for(int num : nums){
 
-            if(set.contains(num)) return true;
+            if(!set.add(num)) return true;
             set.add(num);
         }
         return false;
